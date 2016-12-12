@@ -1,0 +1,2 @@
+# UnitySystemInfoTrial
+Try UnityEngine.SystemInfo
