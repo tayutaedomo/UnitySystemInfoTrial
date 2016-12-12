@@ -7,6 +7,8 @@ public class UnitySystemInfoTrial : MonoBehaviour {
 	void Start () {
 		Debug.Log ("Application.platform: " + Application.platform);
 
+		Debug.Log ("SystemInfo.deviceModel: " + SystemInfo.deviceModel);
+		Debug.Log ("SystemInfo.deviceName: " + SystemInfo.deviceName);
 		Debug.Log ("SystemInfo.deviceType: " + SystemInfo.deviceType);
 		Debug.Log ("SystemInfo.operatingSystem: " + SystemInfo.operatingSystem);
 		Debug.Log ("SystemInfo.deviceUniqueIdentifier: " + SystemInfo.deviceUniqueIdentifier);
